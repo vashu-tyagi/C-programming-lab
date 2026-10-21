@@ -1,0 +1,13 @@
+// Sum: 5^2 + 6^2 + 7^2 + 8^2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum = 0;
+    for (int i = 5; i <= 8; i++) {
+        sum += i * i;
+    }
+    cout << "Sum of squares = " << sum << endl;
+    return 0;
+}
+// Output: Sum of squares = 174
